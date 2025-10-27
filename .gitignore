@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+
+# Build results
+bin/
+obj/
+out/
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Frontend build
+/frontend/build/
+
+# Environment
+.env
+.env.*.local
+
+# Misc
+*.db
+*.sqlite
+*.bak
+
+# Coverage
+coverage/
+
+# Ignore generated webpack files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
